@@ -23,14 +23,14 @@ while True:
             break
 
     if n2.lower() == "salir":
-        #break
-        sys.exit()
+        break
+        #sys.exit()
 
     n3 = input("Ingresa numero 2: ")
 
     if n3.lower() == "salir":
-        #break
-        sys.exit()
+        break
+        #sys.exit()
 
     if n2.lower() == "suma":
         if bandera:
