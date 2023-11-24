@@ -48,12 +48,18 @@ print(usuarios3)
 # feo
 
 
-def ordena(elemento):
-    return elemento[1]
+# def ordena(elemento):
+#     return elemento[1]
 
 
-usuarios3.sort(key=ordena)
-print(usuarios3)
+# usuarios3.sort(key=ordena)
+# print(usuarios3)
 
-usuarios3.sort(key=ordena, reverse=True)
+# usuarios3.sort(key=ordena, reverse=True)
+# print(usuarios3)
+
+# def ordena(elemento):
+# return elemento[1]
+
+usuarios3.sort(key=lambda el: el[1], reverse=True)
 print(usuarios3)
